@@ -8,58 +8,86 @@ import { Check } from "lucide-react";
 const Pricing = () => {
   const packages = [
     {
-      name: "Basic Care",
+      name: "Small Pets",
       price: "$195",
-      description: "Dignified communal cremation service",
+      description: "Birds, Rabbits, Hamsters",
       features: [
         "Compassionate pet pickup",
-        "Communal cremation",
-        "Memorial garden scattering",
-        "Sympathy card",
+        "Individual cremation",
+        "Return of ashes via USPS",
+        "Standard urn included",
+        "Certificate of cremation",
         "24/7 phone support",
       ],
     },
     {
-      name: "Standard Service",
-      price: "$395",
-      description: "Individual cremation with urn",
+      name: "Small Cats & Lap Dogs",
+      price: "$240",
+      description: "Individual cremation service",
       popular: true,
       features: [
-        "Everything in Basic Care",
+        "Compassionate pet pickup",
         "Individual cremation",
-        "Return of ashes",
+        "Return of ashes via USPS",
         "Standard urn included",
-        "Clay paw print keepsake",
         "Certificate of cremation",
-        "Online memorial page",
+        "24/7 phone support",
       ],
     },
     {
-      name: "Premium Tribute",
-      price: "$695",
-      description: "Complete memorial experience",
+      name: "Medium Dogs",
+      price: "$325",
+      description: "Individual cremation service",
       features: [
-        "Everything in Standard Service",
-        "Premium decorative urn",
-        "Witnessing option available",
-        "Memorial ceremony coordination",
-        "Custom photo frame",
-        "Additional paw print keepsake",
-        "Memorial jewelry piece",
-        "Priority scheduling",
+        "Compassionate pet pickup",
+        "Individual cremation",
+        "Return of ashes via USPS",
+        "Standard urn included",
+        "Certificate of cremation",
+        "24/7 phone support",
+      ],
+    },
+    {
+      name: "Large Dogs",
+      price: "$423",
+      description: "Individual cremation service",
+      features: [
+        "Compassionate pet pickup",
+        "Individual cremation",
+        "Return of ashes via USPS",
+        "Standard urn included",
+        "Certificate of cremation",
+        "24/7 phone support",
+      ],
+    },
+    {
+      name: "Extra Large Dogs",
+      price: "$520-$650",
+      description: "Based on size",
+      features: [
+        "Compassionate pet pickup",
+        "Individual cremation",
+        "Return of ashes via USPS",
+        "Standard urn included",
+        "Certificate of cremation",
+        "24/7 phone support",
       ],
     },
   ];
 
   const addOns = [
-    { name: "Premium Urn Upgrade", price: "$75 - $350" },
-    { name: "Additional Paw Print", price: "$45" },
-    { name: "Memorial Jewelry", price: "$85 - $200" },
-    { name: "Custom Photo Frame", price: "$65" },
-    { name: "Garden Memorial Stone", price: "$95 - $175" },
-    { name: "Cremation Witnessing", price: "$150" },
-    { name: "Memorial Ceremony", price: "$250 - $500" },
-    { name: "Rush Service (24 hours)", price: "$100" },
+    { name: "Buddies' by Thumbies Memorial Keepsakes", price: "$60 - $695" },
+    { name: "Parting Stone® Solidified Remains (Cats)", price: "$795" },
+    { name: "Parting Stone® Solidified Remains (Dogs)", price: "$995" },
+    { name: "Bereave Memorial Plaques", price: "$199" },
+    { name: "Spirit Pieces™ Cremation Art", price: "$60 - $260" },
+    { name: "Paw Print/Nose Print - Clay", price: "$64" },
+    { name: "Memorial Fur Clippings", price: "Varies" },
+    { name: "Paw/Nose Print Jewelry", price: "Varies" },
+    { name: "Hand Delivery of Remains", price: "$150" },
+    { name: "Aquamation Service", price: "Contact for pricing" },
+    { name: "Home Burial Guidance", price: "Complimentary" },
+    { name: "Green Burial Guidance", price: "Complimentary" },
   ];
 
   return (
@@ -84,7 +112,7 @@ const Pricing = () => {
         {/* Packages */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-w-7xl mx-auto">
               {packages.map((pkg, index) => (
                 <Card 
                   key={index} 
@@ -123,10 +151,13 @@ const Pricing = () => {
 
             <div className="mt-12 text-center">
               <p className="text-sm text-muted-foreground mb-2">
-                * Prices based on pets up to 75 lbs. Additional fees apply for larger pets.
+                * All services include individual cremation. We do not offer communal cremation.
+              </p>
+              <p className="text-sm text-muted-foreground mb-2">
+                Cremated remains are returned via USPS or can be hand delivered for an additional $150.
               </p>
               <p className="text-sm text-muted-foreground">
-                Pickup fees vary by location. Contact us for exact pricing in your area.
+                Working together with your veterinary clinic, we will gently guide you through the process.
               </p>
             </div>
           </div>

@@ -26,7 +26,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <h1 className="font-heading font-bold text-2xl text-primary">
-              Peaceful Paws
+              Hudson Valley Pet Funeral
             </h1>
           </Link>
 

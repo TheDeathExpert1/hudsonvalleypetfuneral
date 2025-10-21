@@ -47,7 +47,7 @@ const Services = () => {
                   Pet Cremation
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  We offer both individual and communal cremation services, each performed with the utmost dignity and respect. Our state-of-the-art facilities ensure your pet receives careful, professional care.
+                  We offer individual cremation services performed with the utmost dignity and respect. Your pet is cremated alone, ensuring you receive only their ashes. Our state-of-the-art facilities ensure your pet receives careful, professional care.
                 </p>
                 
                 <div className="space-y-4">
@@ -57,18 +57,18 @@ const Services = () => {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Your pet is cremated alone, ensuring you receive only their ashes. Includes a choice of urn and optional witnessing of the cremation process.
+                        Your pet is cremated alone, ensuring you receive only their ashes. Includes a choice of urn and optional witnessing of the cremation process. Cremated remains are returned via USPS or can be hand delivered for an additional $150.
                       </p>
                     </CardContent>
                   </Card>
                   
                   <Card className="border-border">
                     <CardHeader>
-                      <CardTitle className="text-lg">Communal Cremation</CardTitle>
+                      <CardTitle className="text-lg">Aquamation</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        A dignified option where pets are cremated together. Ashes are not returned but are scattered in a peaceful memorial garden.
+                        Also known as water cremation, aquamation is an eco-friendly alternative to traditional flame cremation that uses water and alkaline hydrolysis to gently return your pet to nature.
                       </p>
                     </CardContent>
                   </Card>
@@ -91,10 +91,10 @@ const Services = () => {
                   <Home className="h-6 w-6 text-primary" />
                 </div>
                 <h2 className="font-heading font-bold text-3xl text-foreground mb-4">
-                  Burial Guidance
+                  Home Burial & Green Burial
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Many families wish to lay their pets to rest at home. We provide comprehensive guidance on legal requirements, best practices, and environmental considerations for home burial.
+                  Many families wish to lay their pets to rest at home. We provide comprehensive guidance on legal requirements, best practices, and environmental considerations for both traditional home burial and eco-friendly green burial options.
                 </p>
                 
                 <ul className="space-y-3 mb-6">
@@ -105,6 +105,10 @@ const Services = () => {
                   <li className="flex items-start">
                     <span className="text-primary mr-2">✓</span>
                     <span className="text-muted-foreground">Proper burial depth and location selection</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">✓</span>
+                    <span className="text-muted-foreground">Green burial options using biodegradable materials</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">✓</span>
@@ -190,55 +194,61 @@ const Services = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Memorial Urns</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Beautiful urns in various materials, sizes, and styles to honor your pet's memory
+                    <h3 className="font-semibold text-lg mb-2">Buddies' by Thumbies™</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Memorial keepsakes preserve your pet's unique paw prints within expertly crafted jewelry and accessories
                     </p>
+                    <p className="text-xs text-primary font-medium">$60 - $695</p>
                   </CardContent>
                 </Card>
 
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Paw Print Keepsakes</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Clay impressions or ink prints of your pet's paw, beautifully framed or mounted
+                    <h3 className="font-semibold text-lg mb-2">Parting Stone® Solidified Remains</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Beautiful collection of "stones" you can hold, share, scatter, and travel with (requires private cremation)
                     </p>
+                    <p className="text-xs text-primary font-medium">$795 cats / $995 dogs • 6-8 weeks</p>
                   </CardContent>
                 </Card>
 
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Memorial Jewelry</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Pendants and bracelets that can hold a small portion of ashes or fur
+                    <h3 className="font-semibold text-lg mb-2">Bereave Memorial Plaques</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Turn your favorite photo into a granite memorial plaque for your garden or home
                     </p>
+                    <p className="text-xs text-primary font-medium">$199 • 5 days delivery</p>
                   </CardContent>
                 </Card>
 
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Photo Frames</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Custom frames designed to display your favorite photos alongside memorial details
+                    <h3 className="font-semibold text-lg mb-2">Spirit Pieces™ Cremation Art</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Handmade cremation jewelry and glass art infused with your pet's ashes
                     </p>
+                    <p className="text-xs text-primary font-medium">$60 - $260 • Up to 6 weeks</p>
                   </CardContent>
                 </Card>
 
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Garden Stones</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Engraved memorial stones for your garden or special outdoor space
+                    <h3 className="font-semibold text-lg mb-2">Paw Print/Nose Print</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      White clay impressions preserving your pet's unique print, with optional brass display stand
                     </p>
+                    <p className="text-xs text-primary font-medium">$64</p>
                   </CardContent>
                 </Card>
 
                 <Card className="border-border">
                   <CardContent className="p-6">
-                    <h3 className="font-semibold text-lg mb-2">Custom Items</h3>
-                    <p className="text-sm text-muted-foreground">
-                      Work with us to create a unique memorial piece that reflects your pet's personality
+                    <h3 className="font-semibold text-lg mb-2">Memorial Fur Clippings & Jewelry</h3>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Preserve a lock of fur or create custom rings, pendants, bracelets, and buddy tags
                     </p>
+                    <p className="text-xs text-primary font-medium">Varies by item</p>
                   </CardContent>
                 </Card>
               </div>

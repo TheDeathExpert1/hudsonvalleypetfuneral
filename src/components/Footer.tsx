@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-heading font-bold text-xl text-primary">Peaceful Paws</h3>
+            <h3 className="font-heading font-bold text-xl text-primary">Hudson Valley Pet Funeral</h3>
             <p className="text-sm text-muted-foreground">
-              Providing compassionate pet funeral services to Westchester, Rockland, and Hudson Valley families.
+              Working together with your veterinary clinic, we gently guide you through the process of making cremation arrangements that are fitting for you and your pet.
             </p>
           </div>
 
@@ -48,10 +48,10 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-foreground">Services</h4>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">Pet Cremation</li>
-              <li className="text-sm text-muted-foreground">Burial Guidance</li>
-              <li className="text-sm text-muted-foreground">Memorial Ceremonies</li>
-              <li className="text-sm text-muted-foreground">Keepsakes & Urns</li>
-              <li className="text-sm text-muted-foreground">Grief Support</li>
+              <li className="text-sm text-muted-foreground">Aquamation</li>
+              <li className="text-sm text-muted-foreground">Home Burial</li>
+              <li className="text-sm text-muted-foreground">Green Burial</li>
+              <li className="text-sm text-muted-foreground">Memorial Products</li>
             </ul>
           </div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Peaceful Paws Pet Funeral Services. All rights reserved.
+              © {currentYear} Hudson Valley Pet Funeral. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">

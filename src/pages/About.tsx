@@ -40,7 +40,7 @@ const About = () => {
                 Our Story
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Born from personal experience with pet loss, we created Peaceful Paws to provide the compassionate, dignified service we wished we had during our own time of grief.
+                Born from personal experience with pet loss, we created Hudson Valley Pet Funeral to provide the compassionate, dignified service we wished we had during our own time of grief.
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ const About = () => {
                       When our own beloved companion crossed the rainbow bridge, we found ourselves overwhelmed not just by grief, but by the difficult decisions that needed to be made immediately. We wished for someone who understood, someone who could guide us with both expertise and empathy.
                     </p>
                     <p>
-                      That experience inspired us to create Peaceful Paws—a service dedicated to supporting families in Westchester, Rockland, and the Hudson Valley through one of life's most challenging moments. We believe that every pet deserves a dignified farewell, and every family deserves compassionate guidance.
+                      That experience inspired us to create Hudson Valley Pet Funeral—a service dedicated to supporting families in Westchester, Rockland, and the Hudson Valley through one of life's most challenging moments. As a pet owner, you have the special responsibility of making aftercare choices on your pet's behalf. Working together with your veterinary clinic, we gently guide you through the process of making cremation arrangements that are fitting for you and your pet.
                     </p>
                     <p>
                       Today, we're honored to serve our community, helping families celebrate the unconditional love and joy their companions brought into their lives.
