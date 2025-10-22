@@ -11,26 +11,26 @@ const HomePage = () => {
     {
       icon: Flower2,
       title: "Pet Cremation",
-      description: "Individual cremation services performed with dignity and respect.",
+      description: "Private and communal cremation services performed with dignity.",
       link: "/services#cremation",
     },
     {
       icon: Flower2,
       title: "Aquamation",
       description: "Eco-friendly water-based cremation alternative.",
-      link: "/services#aquamation",
+      link: "/services#cremation",
     },
     {
       icon: Home,
-      title: "Home Burial",
-      description: "Expert guidance on home burial and green burial options.",
+      title: "Home Burial & Pet Cemetery",
+      description: "Guidance for home burial and coordination with pet cemeteries.",
       link: "/services#burial",
     },
     {
       icon: Heart,
-      title: "Memorial Products",
-      description: "Beautiful urns, paw prints, jewelry, and keepsakes.",
-      link: "/services#keepsakes",
+      title: "Memorial Services & Products",
+      description: "In-home ceremonies, keepsakes, and memorial items.",
+      link: "/services#ceremonies",
     },
   ];
 

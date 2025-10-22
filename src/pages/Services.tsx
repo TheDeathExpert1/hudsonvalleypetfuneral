@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Flame, Home, Users, Heart, BookOpen } from "lucide-react";
+import { Flame, Home, Users, Heart, BookOpen, Building2, HandHeart } from "lucide-react";
 import cremationImage from "@/assets/cremation-service.jpg";
 import burialImage from "@/assets/burial-service.jpg";
 import ceremonyImage from "@/assets/memorial-ceremony.jpg";
@@ -53,11 +53,22 @@ const Services = () => {
                 <div className="space-y-4">
                   <Card className="border-border">
                     <CardHeader>
-                      <CardTitle className="text-lg">Individual Cremation</CardTitle>
+                      <CardTitle className="text-lg">Private Cremation</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         Your pet is cremated alone, ensuring you receive only their ashes. Includes a choice of urn and optional witnessing of the cremation process. Cremated remains are returned via USPS or can be hand delivered for an additional $150.
+                      </p>
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="border-border">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Communal Cremation</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Your pet is cremated with other beloved companions in a dignified group cremation. Ashes are not returned but are scattered in a peaceful memorial garden.
                       </p>
                     </CardContent>
                   </Card>
@@ -260,8 +271,64 @@ const Services = () => {
           </div>
         </section>
 
+        {/* In-Home Services & Cemetery Coordination */}
+        <section id="additional-services" className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <Card className="border-border">
+                <CardContent className="p-8">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                    <Home className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="font-heading font-bold text-2xl text-foreground mb-4">
+                    In-Home Funerals & Memorial Services
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Say goodbye in the comfort of your own home with a personalized in-home funeral or memorial service. We bring compassionate support directly to you, allowing your family to honor your companion in a familiar, peaceful environment.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-border">
+                <CardContent className="p-8">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                    <Building2 className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="font-heading font-bold text-2xl text-foreground mb-4">
+                    Pet Cemetery Coordination
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    We coordinate with respected pet cemeteries throughout New York, New Jersey, and Connecticut, including:
+                  </p>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• Hartsdale Pet Cemetery</li>
+                    <li>• Snow Mountain Pet Cemetery & Crematory</li>
+                    <li>• Forever Angels Pet Cemetery</li>
+                    <li>• Riverside Pet Cemetery</li>
+                    <li>• Regency Forest Park</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="border-border md:col-span-2">
+                <CardContent className="p-8">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                    <HandHeart className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="font-heading font-bold text-2xl text-foreground mb-4">
+                    Pet Hospice Support
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    When your companion is nearing the end of their journey, we provide compassionate guidance and support through their final days. Our pet hospice support helps you understand what to expect, how to keep your pet comfortable, and how to prepare emotionally for saying goodbye.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Grief Support */}
-        <section id="grief-support" className="py-16">
+        <section id="grief-support" className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
