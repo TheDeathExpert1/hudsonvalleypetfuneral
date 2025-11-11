@@ -70,7 +70,7 @@ const HomePage = () => {
             Honoring the Bond You Shared
           </h1>
           <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-2xl mx-auto font-light">
-            Compassionate pet funeral services available 24/7 in Westchester, Rockland, and Hudson Valley
+            Compassionate pet funeral services available 24/7 in Westchester County, Rockland County, Putnam County and the Lower Hudson Valley
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary" className="text-lg px-8">

@@ -61,7 +61,7 @@ const FAQs = () => {
     },
     {
       question: "How much does pickup cost?",
-      answer: "Pickup fees range from $50-$100 depending on your location within our service area (Westchester, Rockland, and Hudson Valley). We'll provide an exact price when you call based on your specific address. Emergency or rush pickups may have additional fees."
+      answer: "Pickup fees range from $50-$100 depending on your location within our service area (Westchester County, Rockland County, Putnam County and the Lower Hudson Valley). We'll provide an exact price when you call based on your specific address. Emergency or rush pickups may have additional fees."
     },
     {
       question: "Can you pick up my pet from my veterinarian?",

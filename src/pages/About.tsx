@@ -115,7 +115,7 @@ const About = () => {
                 Compassionate Services Tailored to Your Needs
               </h2>
               <p className="text-lg text-muted-foreground mb-8 text-center">
-                We created Hudson Valley Pet Funeral to give families throughout Westchester, Rockland, and the Hudson Valley the opportunity to mourn and celebrate their companions in meaningful ways.
+                We created Hudson Valley Pet Funeral to give families throughout Westchester County, Rockland County, Putnam County and the Lower Hudson Valley the opportunity to mourn and celebrate their companions in meaningful ways.
               </p>
 
               <Card className="border-border">
@@ -193,15 +193,16 @@ const About = () => {
               Serving Our Community
             </h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto text-white/95">
-              We're proud to serve families throughout the Hudson Valley region, and we're honored that you would trust us during this difficult time. Whether you need immediate assistance or want to plan ahead for the future, we're here for you with compassion, understanding, and the expertise that comes from generations of caring service.
+              We're proud to serve families throughout the region, and we're honored that you would trust us during this difficult time. Whether you need immediate assistance or want to plan ahead for the future, we're here for you with compassion, understanding, and the expertise that comes from generations of caring service.
             </p>
             <p className="text-2xl font-heading font-semibold mb-8 text-white">
-              Because family is family—no matter how many legs they have, whether they have wings, fins, or paws.
+              Proudly Serving:
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-lg">
               <span className="px-6 py-2 bg-white/10 rounded-full">Westchester County</span>
               <span className="px-6 py-2 bg-white/10 rounded-full">Rockland County</span>
-              <span className="px-6 py-2 bg-white/10 rounded-full">Hudson Valley</span>
+              <span className="px-6 py-2 bg-white/10 rounded-full">Putnam County</span>
+              <span className="px-6 py-2 bg-white/10 rounded-full">Lower Hudson Valley</span>
             </div>
           </div>
         </section>

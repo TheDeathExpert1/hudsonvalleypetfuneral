@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-heading font-bold text-xl text-primary">Hudson Valley Pet Funeral</h3>
             <p className="text-sm text-muted-foreground">
-              Working together with your veterinary clinic, we gently guide you through the process of making cremation arrangements that are fitting for you and your pet.
+              We work with brick and mortar as well as traveling veterinarians to help you through your pet's end-of-life to ensure comfort, dignity and respect for you and your pet.
             </p>
           </div>
 
@@ -70,14 +70,14 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@peacefulpaws.com" className="text-sm text-muted-foreground hover:text-primary">
-                  info@peacefulpaws.com
+                <a href="mailto:HVPetFuneral@TheDeath.Expert" className="text-sm text-muted-foreground hover:text-primary">
+                  HVPetFuneral@TheDeath.Expert
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
                 <p className="text-sm text-muted-foreground">
-                  Serving Westchester, Rockland & Hudson Valley
+                  Serving Westchester County, Rockland County, Putnam County and the Lower Hudson Valley
                 </p>
               </li>
             </ul>

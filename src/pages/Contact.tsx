@@ -93,8 +93,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold text-lg mb-1">Email</h3>
-                        <a href="mailto:info@peacefulpaws.com" className="text-primary hover:underline">
-                          info@peacefulpaws.com
+                        <a href="mailto:HVPetFuneral@TheDeath.Expert" className="text-primary hover:underline">
+                          HVPetFuneral@TheDeath.Expert
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
                           We'll respond within 2 hours
@@ -115,7 +115,8 @@ const Contact = () => {
                         <p className="text-muted-foreground">
                           Westchester County<br />
                           Rockland County<br />
-                          Hudson Valley Region
+                          Putnam County<br />
+                          Lower Hudson Valley
                         </p>
                       </div>
                     </CardContent>
@@ -261,7 +262,7 @@ const Contact = () => {
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline">
-                  <a href="mailto:info@peacefulpaws.com">
+                  <a href="mailto:HVPetFuneral@TheDeath.Expert">
                     <Mail className="mr-2 h-5 w-5" />
                     Email Us
                   </a>
